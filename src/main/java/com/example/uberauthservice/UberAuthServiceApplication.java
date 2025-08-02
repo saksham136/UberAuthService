@@ -1,0 +1,14 @@
+package com.example.uberauthservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UberAuthServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(UberAuthServiceApplication.class, args);
+        System.out.println("Welcome to Uber Auth Service");
+    }
+
+}
